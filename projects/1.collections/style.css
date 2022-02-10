@@ -21,7 +21,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     color: #444;
-    background:linear-gradient(to right bottom, #A9C9FF 0%, #FFBBEC 100%); 
+    background-color: #A9C9FF;
     height: 100vh;
     
 }
@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height:45vh;
    
 }
 

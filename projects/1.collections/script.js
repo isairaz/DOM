@@ -21,7 +21,6 @@ fetch('https://gist.githubusercontent.com/saniyusuf/406b843afdfb9c6a86e25753fe27
 
         movies.forEach(movie => {
         document.body.insertAdjacentHTML("beforeend" ,`<div class="card-container">
-
                     <figure class="movie">
                         <div class="movie__hero">
                         <img src=${movie.Images[0]} alt="Rambo" class="movie__img">
@@ -44,12 +43,12 @@ fetch('https://gist.githubusercontent.com/saniyusuf/406b843afdfb9c6a86e25753fe27
                         </div>
                         <div class="movie__price">${movie.Country}</div>
                     </figure>
-
                 </div>`
             )});
         
         
     })
+
 
 
 
